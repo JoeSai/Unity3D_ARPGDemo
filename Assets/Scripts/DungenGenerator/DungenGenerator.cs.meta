@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 06479ff80c5165d4997d47a9b75b349d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_generatorData: {fileID: 11400000, guid: 77a3e697dc16ed446932fe64ab0b06e2, type: 2}
+  - player: {fileID: 6017534514996861146, guid: 15038196c0c9eb84fae856216597aa69,
+      type: 3}
+  - Camer: {instanceID: 0}
+  - surface: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

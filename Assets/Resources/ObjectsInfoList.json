@@ -1,0 +1,48 @@
+{
+  "infoList": [
+
+    {
+      "id": 1001,
+      "name": "手套",
+      "iconName": "gloves"
+    },
+
+    {
+      "id": 1002,
+      "name": "大剑",
+      "iconName": "sword"
+    },
+
+    {
+      "id": 1003,
+      "name": "重斧",
+      "iconName": "axe"
+    },
+    {
+      "id": 1004,
+      "name": "盔甲",
+      "iconName": "armor"
+    },
+    {
+      "id": 1005,
+      "name": "裤子",
+      "iconName": "pants"
+    },
+
+    {
+      "id": 1006,
+      "name": "头盔",
+      "iconName": "helmets"
+    },
+    {
+      "id": 1007,
+      "name": "腰带",
+      "iconName": "belts"
+    },
+    {
+      "id": 1008,
+      "name": "靴子",
+      "iconName": "boots"
+    }
+  ]
+}

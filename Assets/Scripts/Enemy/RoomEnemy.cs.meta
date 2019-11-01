@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f833104275d414446a4377d93828fbf6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Bear: {fileID: 1534799685716253305, guid: 0f7fb4a572a49a2408bf61886f8046e1, type: 3}
+  - FrieDemon: {fileID: 1908989280058437881, guid: 07e721b98f15a2344b6cd9b490872bce,
+      type: 3}
+  - Skeleton_N: {fileID: 1078865605973732903, guid: a169e542cd48e574282f35c2d6e0d934,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

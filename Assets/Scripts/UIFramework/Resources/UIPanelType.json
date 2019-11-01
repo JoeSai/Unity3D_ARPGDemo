@@ -1,0 +1,29 @@
+{
+  "infoList": [
+
+    {
+      "panelTypeString": "Game",
+      "path": "UIPanel/GamePanel"
+    },
+    {
+      "panelTypeString": "StartMenu",
+      "path": "UIPanel/StartMenuPanel"
+    },
+
+    {
+      "panelTypeString": "Knapsack",
+      "path": "UIPanel/KnapsackPanel"
+    },
+
+    {
+      "panelTypeString": "System",
+      "path": "UIPanel/SystemPanel"
+    },
+
+    {
+      "panelTypeString": "Equip",
+      "path": "UIPanel/EquipPanel"
+    }
+
+  ]
+}
