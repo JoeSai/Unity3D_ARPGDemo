@@ -1,13 +1,12 @@
 # Unity3D_ARPGDemo
 一个简单的ARPGDemo
 
-地图生成参考至：[DungenGenerator](https://github.com/YimiCGH/DungenGenerator)\
-及其作者[b站](https://www.bilibili.com/read/cv3322436)\
+地图生成参考至：[DungenGenerator](https://github.com/YimiCGH/DungenGenerator)及其作者[b站](https://www.bilibili.com/read/cv3322436)  
 角色动画及控制使用
 基于状态模式设计的有限状态机  
-[框架参考](https://blog.csdn.net/liaoshengg/article/details/81014770)\
+[状态机框架参考](https://blog.csdn.net/liaoshengg/article/details/81014770)  
 敌人Ai使用行为树插件(Behavior Designer）实现\
-Ai寻路使用动态寻路NavMesh  [NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents)\
+Ai寻路使用动态寻路NavMesh  [NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents)  
 一个简单UI框架和背包系统
 
 
