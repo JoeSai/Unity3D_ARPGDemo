@@ -10,6 +10,8 @@ Ai寻路使用动态寻路NavMesh  [NavMeshComponents](https://github.com/Unity-
 一个简单UI框架和背包系统  
 Unity版本2019.2.0f
 
+[打包下载](https://pan.baidu.com/s/1Hz2ir0WDkia2BpXXMuII2Q)  提取码:fspz  
+
 预览图：
 
 ![image](https://github.com/Aetulier/Unity3D_ARPGDemo/blob/master/Preview%20image/1.jpg)
