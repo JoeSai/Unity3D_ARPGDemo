@@ -8,7 +8,7 @@
 敌人Ai使用行为树插件(Behavior Designer）实现\
 Ai寻路使用动态寻路NavMesh  [NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents)  
 一个简单UI框架和背包系统
-
+Unity版本2019.2.0f
 
 预览图：
 
