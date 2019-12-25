@@ -5,8 +5,8 @@
 角色动画及控制使用
 基于状态模式设计的有限状态机  
 [状态机框架参考](https://blog.csdn.net/liaoshengg/article/details/81014770)  
-敌人Ai使用行为树插件(Behavior Designer）实现\
-Ai寻路使用动态寻路NavMesh  [NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents)  
+敌人AI使用行为树插件(Behavior Designer）实现\
+AI寻路使用动态寻路NavMesh  [NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents)  
 一个简单UI框架和背包系统  
 Unity版本2019.2.0f
 
