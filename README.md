@@ -3,7 +3,7 @@
 游戏主要包含地图生成、角色动画控制、怪物AI、UI部分。  
 Unity版本2019.2.0f  
 
-[打包下载](https://pan.baidu.com/s/1Hz2ir0WDkia2BpXXMuII2Q)  提取码:fspz  
+[百度云下载](https://pan.baidu.com/s/1Hz2ir0WDkia2BpXXMuII2Q)  提取码:fspz  
 
 预览图：
 
