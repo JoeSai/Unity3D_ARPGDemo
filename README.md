@@ -53,7 +53,7 @@ Unity版本2019.2.0f
 行为树插件(Behavior Designer）实现,部分怪物连接图如下  
 ![image](https://github.com/Aetulier/Unity3D_ARPGDemo/blob/master/Preview%20image/EnemyAI.jpg)    
 具体行为代码可查看Scripts/Enemy文件夹下脚本代码。   
-由于地图为运行后生成所以所有NavMesh的拓展应用 [NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents)  
+由于地图为运行后生成，使用NavMesh的拓展应用 [NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents)  
 可以在运行后动态烘焙地图，AI寻路使用NavMesh。  
   
   
