@@ -5,7 +5,6 @@ Unity版本2019.2.0f
 
 3.6更新 行为树框架 [NPBehave](https://github.com/meniku/NPBehave)
 
-[百度云下载](https://pan.baidu.com/s/1Hz2ir0WDkia2BpXXMuII2Q)  提取码:fspz  
 
 预览图：
 
