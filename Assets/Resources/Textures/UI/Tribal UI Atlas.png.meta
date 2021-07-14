@@ -1,126 +1,345 @@
 fileFormatVersion: 2
 guid: e473739ccac60da4ca6b023d33ccb8ed
-timeCreated: 1449677752
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: LargeButton_Background
-    21300002: LargeButton_NormalState
-    21300004: LargeButton_Label_Play
-    21300006: LargeFrame_Background
-    21300008: LargeFrame_Borders
-    21300010: LargeFrame_ExampleImage
-    21300012: LargeFrame_Footer
-    21300014: NormalButton_Background
-    21300016: TinyButton_Background
-    21300018: ActionButton_2_Background
-    21300020: ActionButton_0_Background
-    21300022: ActionButton_1_Background
-    21300024: ActionButton_0
-    21300026: ActionButton_1
-    21300028: ActionButton_2
-    21300030: ActionButton_Fist
-    21300032: ActionButton_Swords
-    21300034: ActionButton_Lightning
-    21300036: Star_1_Slot
-    21300038: Star_1
-    21300040: Star_2_Slot
-    21300042: Star_0_Slot
-    21300044: Star_3
-    21300046: Star_0
-    21300048: Star_2
-    21300050: SmallFrame_Background
-    21300052: SmallFrame_Borders
-    21300054: SmallFrame_ExampleImage
-    21300056: Padlock
-    21300058: Joystick_Background
-    21300060: Joystick_ButtonsMerged
-    21300062: Joystick_Button_Left
-    21300064: Joystick_Button_Top
-    21300066: Joystick_Button_Bottom
-    21300068: Joystick_Button_Right
-    21300070: Joystick_Arrow_Horizontal
-    21300072: Joystick_Arrow_Vertical
-    21300074: LoadingBar_Background
-    21300076: LoadingBar_Fill
-    21300078: LargeUnitBar_Background
-    21300080: LargeUnitBar_Fill_Health
-    21300082: LargeUnitBar_Fill_Power
-    21300084: StepBar_Background
-    21300086: StepBar_Fill_Incomplete
-    21300088: StepBar_Fill
-    21300090: StepBar_Bubble
-    21300092: StepBar_Separator_Inactive
-    21300094: StepBar_Separator
-    21300096: Window_Background
-    21300098: Window_Header
-    21300100: Window_CloseButton_Hover
-    21300102: Window_CloseButton_Normal
-    21300104: Tab_Active
-    21300106: Tab_Inactive
-    21300108: Tab_Bottom_Active
-    21300110: Tab_Bottom_Inactive
-    21300112: Tab_Active_Highlighted
-    21300114: Tab_Inactive_Highlighted
-    21300116: Tab_Inactive_Pressed
-    21300118: Tab_Active_Pressed
-    21300120: ImageBox_ExampleImage
-    21300122: ImageBox_Background
-    21300124: ScrollBar_Horizontal_Background
-    21300126: ScrollBar_Vertical_Background
-    21300128: ScrollBar_Horizontal_Foreground
-    21300130: ScrollBar_Vertical_Foreground
-    21300132: ScrollBar_Horizontal_Thumb
-    21300134: ScrollBar_Vertical_Thumb
-    21300136: ProgressBar_Vertical_Background
-    21300138: ProgressBar_Vertical_Fill
-    21300140: Slider_Horizontal_Background
-    21300142: Slider_Vertical_Background
-    21300144: Slider_Vertical_Thumb
-    21300146: Slider_Horizontal_Thumb
-    21300148: Checkbox_Background
-    21300150: RadioCheckbox_Background
-    21300152: Checkbox_Checkmark
-    21300154: RadioCheckbox_Checkmark
-    21300156: SmallArrow_Right
-    21300158: SmallArrow_Left
-    21300160: Arrow_Up
-    21300162: Arrow_Right
-    21300164: Arrow_Down
-    21300166: Arrow_Left
-    21300168: SmallArrow_Middle
-    21300170: TextField_Normal
-    21300172: TextField_Focused
-    21300174: Checkbox_Background_Highlighted
-    21300176: RadioCheckbox_Background_Highlighted
-    21300178: PopupList_Background
-    21300180: PopupList_Arrow_Normal
-    21300182: PopupList_Separator
-    21300184: PopupList_Highlight
-    21300186: PopupList_Arrow_Active
-    21300188: ItemBox_Background
-    21300190: ItemBox_Icon_Background
-    21300192: ItemBox_ExampleIcon
-    21300194: ItemBox_Icon_Borders
-    21300196: GoldCoin
-    21300198: ScrollView_Background
-    21300200: ScrollView_Item_Background
-    21300202: ScrollView_Item_Icon_Background
-    21300204: ScrollView_Item_Icon_Borders
-    21300206: WizardMenu_Middle
-    21300208: WizardMenu_Middle_Active
-    21300210: WizardMenu_Left
-    21300212: WizardMenu_Right
-    21300214: WizardMenu_Right_Active
-    21300216: WizardMenu_Left_Active
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: LargeButton_Background
+  - first:
+      213: 21300002
+    second: LargeButton_NormalState
+  - first:
+      213: 21300004
+    second: LargeButton_Label_Play
+  - first:
+      213: 21300006
+    second: LargeFrame_Background
+  - first:
+      213: 21300008
+    second: LargeFrame_Borders
+  - first:
+      213: 21300010
+    second: LargeFrame_ExampleImage
+  - first:
+      213: 21300012
+    second: LargeFrame_Footer
+  - first:
+      213: 21300014
+    second: NormalButton_Background
+  - first:
+      213: 21300016
+    second: TinyButton_Background
+  - first:
+      213: 21300018
+    second: ActionButton_2_Background
+  - first:
+      213: 21300020
+    second: ActionButton_0_Background
+  - first:
+      213: 21300022
+    second: ActionButton_1_Background
+  - first:
+      213: 21300024
+    second: ActionButton_0
+  - first:
+      213: 21300026
+    second: ActionButton_1
+  - first:
+      213: 21300028
+    second: ActionButton_2
+  - first:
+      213: 21300030
+    second: ActionButton_Fist
+  - first:
+      213: 21300032
+    second: ActionButton_Swords
+  - first:
+      213: 21300034
+    second: ActionButton_Lightning
+  - first:
+      213: 21300036
+    second: Star_1_Slot
+  - first:
+      213: 21300038
+    second: Star_1
+  - first:
+      213: 21300040
+    second: Star_2_Slot
+  - first:
+      213: 21300042
+    second: Star_0_Slot
+  - first:
+      213: 21300044
+    second: Star_3
+  - first:
+      213: 21300046
+    second: Star_0
+  - first:
+      213: 21300048
+    second: Star_2
+  - first:
+      213: 21300050
+    second: SmallFrame_Background
+  - first:
+      213: 21300052
+    second: SmallFrame_Borders
+  - first:
+      213: 21300054
+    second: SmallFrame_ExampleImage
+  - first:
+      213: 21300056
+    second: Padlock
+  - first:
+      213: 21300058
+    second: Joystick_Background
+  - first:
+      213: 21300060
+    second: Joystick_ButtonsMerged
+  - first:
+      213: 21300062
+    second: Joystick_Button_Left
+  - first:
+      213: 21300064
+    second: Joystick_Button_Top
+  - first:
+      213: 21300066
+    second: Joystick_Button_Bottom
+  - first:
+      213: 21300068
+    second: Joystick_Button_Right
+  - first:
+      213: 21300070
+    second: Joystick_Arrow_Horizontal
+  - first:
+      213: 21300072
+    second: Joystick_Arrow_Vertical
+  - first:
+      213: 21300074
+    second: LoadingBar_Background
+  - first:
+      213: 21300076
+    second: LoadingBar_Fill
+  - first:
+      213: 21300078
+    second: LargeUnitBar_Background
+  - first:
+      213: 21300080
+    second: LargeUnitBar_Fill_Health
+  - first:
+      213: 21300082
+    second: LargeUnitBar_Fill_Power
+  - first:
+      213: 21300084
+    second: StepBar_Background
+  - first:
+      213: 21300086
+    second: StepBar_Fill_Incomplete
+  - first:
+      213: 21300088
+    second: StepBar_Fill
+  - first:
+      213: 21300090
+    second: StepBar_Bubble
+  - first:
+      213: 21300092
+    second: StepBar_Separator_Inactive
+  - first:
+      213: 21300094
+    second: StepBar_Separator
+  - first:
+      213: 21300096
+    second: Window_Background
+  - first:
+      213: 21300098
+    second: Window_Header
+  - first:
+      213: 21300100
+    second: Window_CloseButton_Hover
+  - first:
+      213: 21300102
+    second: Window_CloseButton_Normal
+  - first:
+      213: 21300104
+    second: Tab_Active
+  - first:
+      213: 21300106
+    second: Tab_Inactive
+  - first:
+      213: 21300108
+    second: Tab_Bottom_Active
+  - first:
+      213: 21300110
+    second: Tab_Bottom_Inactive
+  - first:
+      213: 21300112
+    second: Tab_Active_Highlighted
+  - first:
+      213: 21300114
+    second: Tab_Inactive_Highlighted
+  - first:
+      213: 21300116
+    second: Tab_Inactive_Pressed
+  - first:
+      213: 21300118
+    second: Tab_Active_Pressed
+  - first:
+      213: 21300120
+    second: ImageBox_ExampleImage
+  - first:
+      213: 21300122
+    second: ImageBox_Background
+  - first:
+      213: 21300124
+    second: ScrollBar_Horizontal_Background
+  - first:
+      213: 21300126
+    second: ScrollBar_Vertical_Background
+  - first:
+      213: 21300128
+    second: ScrollBar_Horizontal_Foreground
+  - first:
+      213: 21300130
+    second: ScrollBar_Vertical_Foreground
+  - first:
+      213: 21300132
+    second: ScrollBar_Horizontal_Thumb
+  - first:
+      213: 21300134
+    second: ScrollBar_Vertical_Thumb
+  - first:
+      213: 21300136
+    second: ProgressBar_Vertical_Background
+  - first:
+      213: 21300138
+    second: ProgressBar_Vertical_Fill
+  - first:
+      213: 21300140
+    second: Slider_Horizontal_Background
+  - first:
+      213: 21300142
+    second: Slider_Vertical_Background
+  - first:
+      213: 21300144
+    second: Slider_Vertical_Thumb
+  - first:
+      213: 21300146
+    second: Slider_Horizontal_Thumb
+  - first:
+      213: 21300148
+    second: Checkbox_Background
+  - first:
+      213: 21300150
+    second: RadioCheckbox_Background
+  - first:
+      213: 21300152
+    second: Checkbox_Checkmark
+  - first:
+      213: 21300154
+    second: RadioCheckbox_Checkmark
+  - first:
+      213: 21300156
+    second: SmallArrow_Right
+  - first:
+      213: 21300158
+    second: SmallArrow_Left
+  - first:
+      213: 21300160
+    second: Arrow_Up
+  - first:
+      213: 21300162
+    second: Arrow_Right
+  - first:
+      213: 21300164
+    second: Arrow_Down
+  - first:
+      213: 21300166
+    second: Arrow_Left
+  - first:
+      213: 21300168
+    second: SmallArrow_Middle
+  - first:
+      213: 21300170
+    second: TextField_Normal
+  - first:
+      213: 21300172
+    second: TextField_Focused
+  - first:
+      213: 21300174
+    second: Checkbox_Background_Highlighted
+  - first:
+      213: 21300176
+    second: RadioCheckbox_Background_Highlighted
+  - first:
+      213: 21300178
+    second: PopupList_Background
+  - first:
+      213: 21300180
+    second: PopupList_Arrow_Normal
+  - first:
+      213: 21300182
+    second: PopupList_Separator
+  - first:
+      213: 21300184
+    second: PopupList_Highlight
+  - first:
+      213: 21300186
+    second: PopupList_Arrow_Active
+  - first:
+      213: 21300188
+    second: ItemBox_Background
+  - first:
+      213: 21300190
+    second: ItemBox_Icon_Background
+  - first:
+      213: 21300192
+    second: ItemBox_ExampleIcon
+  - first:
+      213: 21300194
+    second: ItemBox_Icon_Borders
+  - first:
+      213: 21300196
+    second: GoldCoin
+  - first:
+      213: 21300198
+    second: ScrollView_Background
+  - first:
+      213: 21300200
+    second: ScrollView_Item_Background
+  - first:
+      213: 21300202
+    second: ScrollView_Item_Icon_Background
+  - first:
+      213: 21300204
+    second: ScrollView_Item_Icon_Borders
+  - first:
+      213: 21300206
+    second: WizardMenu_Middle
+  - first:
+      213: 21300208
+    second: WizardMenu_Middle_Active
+  - first:
+      213: 21300210
+    second: WizardMenu_Left
+  - first:
+      213: 21300212
+    second: WizardMenu_Right
+  - first:
+      213: 21300214
+    second: WizardMenu_Right_Active
+  - first:
+      213: 21300216
+    second: WizardMenu_Left_Active
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -129,42 +348,77 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 4096
   textureSettings:
+    serializedVersion: 2
     filterMode: 2
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: WebGL
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
-    textureFormat: -3
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: LargeFrame_Background
+    - serializedVersion: 2
+      name: LargeFrame_Background
       rect:
         serializedVersion: 2
         x: 0
@@ -174,40 +428,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 264, y: -353}
-        - {x: 277, y: -330}
-        - {x: 277, y: -313}
-        - {x: 274, y: -299}
-        - {x: 270, y: -286}
-        - {x: 265, y: -282}
-        - {x: 251, y: -273}
-        - {x: 247, y: -271}
-        - {x: 247, y: -32}
-        - {x: 250, y: -32}
-        - {x: 247, y: -5}
-        - {x: 237, y: 0}
-        - {x: 38, y: 0}
-        - {x: 30, y: -6}
-        - {x: 27, y: -16}
-        - {x: 28, y: -36}
-        - {x: 30, y: -36}
-        - {x: 30, y: -271}
-        - {x: 26, y: -273}
-        - {x: 11, y: -281}
-        - {x: 3, y: -293}
-        - {x: 4, y: -314}
-        - {x: 0, y: -319}
-        - {x: 0, y: -328}
-        - {x: 7, y: -339}
-        - {x: 18, y: -359}
-        - {x: 34, y: -364}
-        - {x: 118, y: -383}
-        - {x: 160, y: -383}
-        - {x: 180, y: -379}
-        - {x: 204, y: -372}
-        - {x: 254, y: -360}
-    - name: LargeButton_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeButton_Background
       rect:
         serializedVersion: 2
         x: 0
@@ -217,36 +449,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 380, y: -175}
-        - {x: 450, y: -175}
-        - {x: 483, y: -160}
-        - {x: 501, y: -148}
-        - {x: 505, y: -128}
-        - {x: 477, y: -108}
-        - {x: 534, y: -71}
-        - {x: 534, y: -37}
-        - {x: 467, y: -33}
-        - {x: 460, y: 0}
-        - {x: 373, y: 0}
-        - {x: 360, y: -7}
-        - {x: 169, y: -8}
-        - {x: 140, y: 0}
-        - {x: 92, y: 0}
-        - {x: 88, y: -1}
-        - {x: 87, y: -16}
-        - {x: 88, y: -24}
-        - {x: 0, y: -36}
-        - {x: 0, y: -86}
-        - {x: 35, y: -131}
-        - {x: 33, y: -142}
-        - {x: 38, y: -156}
-        - {x: 102, y: -175}
-        - {x: 174, y: -175}
-        - {x: 235, y: -157}
-        - {x: 242, y: -150}
-        - {x: 308, y: -162}
-    - name: ImageBox_ExampleImage
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImageBox_ExampleImage
       rect:
         serializedVersion: 2
         x: 278
@@ -256,12 +470,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -152}
-        - {x: 586, y: -152}
-        - {x: 586, y: 0}
-    - name: LargeUnitBar_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeUnitBar_Background
       rect:
         serializedVersion: 2
         x: 278
@@ -271,29 +491,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 538, y: -96}
-        - {x: 537, y: -102}
-        - {x: 542, y: -108}
-        - {x: 566, y: -108}
-        - {x: 593, y: -100}
-        - {x: 622, y: -89}
-        - {x: 617, y: -65}
-        - {x: 638, y: -57}
-        - {x: 638, y: -22}
-        - {x: 574, y: 0}
-        - {x: 65, y: 0}
-        - {x: 56, y: -4}
-        - {x: 43, y: -13}
-        - {x: 0, y: -24}
-        - {x: 0, y: -58}
-        - {x: 30, y: -97}
-        - {x: 66, y: -108}
-        - {x: 101, y: -108}
-        - {x: 107, y: -97}
-        - {x: 215, y: -89}
-        - {x: 423, y: -89}
-    - name: LoadingBar_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_Background
       rect:
         serializedVersion: 2
         x: 865
@@ -303,24 +512,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 643, y: -97}
-        - {x: 657, y: -93}
-        - {x: 683, y: -77}
-        - {x: 701, y: -61}
-        - {x: 701, y: 0}
-        - {x: 582, y: 0}
-        - {x: 530, y: -9}
-        - {x: 238, y: 0}
-        - {x: 51, y: 0}
-        - {x: 0, y: -13}
-        - {x: 0, y: -47}
-        - {x: 30, y: -86}
-        - {x: 65, y: -97}
-        - {x: 172, y: -97}
-        - {x: 275, y: -75}
-        - {x: 524, y: -97}
-    - name: Window_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window_Background
       rect:
         serializedVersion: 2
         x: 1567
@@ -330,24 +533,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 36, y: 36, z: 36, w: 36}
-      outline:
-      - - {x: 256, y: -241}
-        - {x: 256, y: -15}
-        - {x: 254, y: -10}
-        - {x: 246, y: -2}
-        - {x: 241, y: 0}
-        - {x: 15, y: 0}
-        - {x: 10, y: -2}
-        - {x: 2, y: -10}
-        - {x: 0, y: -15}
-        - {x: 0, y: -241}
-        - {x: 2, y: -246}
-        - {x: 10, y: -254}
-        - {x: 15, y: -256}
-        - {x: 241, y: -256}
-        - {x: 246, y: -254}
-        - {x: 254, y: -246}
-    - name: LargeFrame_Borders
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeFrame_Borders
       rect:
         serializedVersion: 2
         x: 1824
@@ -357,20 +554,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -186}
-        - {x: 1, y: -279}
-        - {x: 216, y: -279}
-        - {x: 216, y: 0}
-      - - {x: 13, y: -271}
-        - {x: 14, y: -268}
-        - {x: 205, y: -268}
-        - {x: 209, y: -273}
-        - {x: 209, y: -272}
-        - {x: 10, y: -272}
-        - {x: 10, y: -273}
-    - name: LargeFrame_ExampleImage
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeFrame_ExampleImage
       rect:
         serializedVersion: 2
         x: 917
@@ -380,12 +575,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -271}
-        - {x: 209, y: -271}
-        - {x: 209, y: 0}
-    - name: StepBar_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepBar_Background
       rect:
         serializedVersion: 2
         x: 1127
@@ -395,19 +596,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 664, y: -11}
-        - {x: 654, y: -1}
-        - {x: 652, y: 0}
-        - {x: 16, y: 0}
-        - {x: 0, y: -15}
-        - {x: 0, y: -49}
-        - {x: 7, y: -59}
-        - {x: 13, y: -62}
-        - {x: 659, y: -62}
-        - {x: 668, y: -51}
-        - {x: 668, y: -16}
-    - name: Joystick_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_Background
       rect:
         serializedVersion: 2
         x: 1796
@@ -417,19 +617,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 213, y: -38}
-        - {x: 176, y: 0}
-        - {x: 36, y: 0}
-        - {x: 0, y: -36}
-        - {x: 0, y: -94}
-        - {x: 16, y: -142}
-        - {x: 28, y: -159}
-        - {x: 53, y: -165}
-        - {x: 162, y: -165}
-        - {x: 193, y: -152}
-        - {x: 213, y: -88}
-    - name: Window_Header
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window_Header
       rect:
         serializedVersion: 2
         x: 278
@@ -439,12 +638,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 66, y: 20, z: 66, w: 20}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -55}
-        - {x: 622, y: -55}
-        - {x: 622, y: 0}
-    - name: ScrollView_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollView_Background
       rect:
         serializedVersion: 2
         x: 535
@@ -454,20 +659,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 12, y: 16, z: 12, w: 16}
-      outline:
-      - - {x: 173, y: -7}
-        - {x: 171, y: -5}
-        - {x: 170, y: -1}
-        - {x: 169, y: 0}
-        - {x: 3, y: 0}
-        - {x: 0, y: -3}
-        - {x: 0, y: -184}
-        - {x: 3, y: -187}
-        - {x: 169, y: -187}
-        - {x: 170, y: -186}
-        - {x: 170, y: -184}
-        - {x: 173, y: -180}
-    - name: LargeButton_NormalState
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeButton_NormalState
       rect:
         serializedVersion: 2
         x: 1127
@@ -477,17 +680,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 0}
-        - {x: 0, y: -4}
-        - {x: 0, y: -98}
-        - {x: 4, y: -102}
-        - {x: 4, y: -105}
-        - {x: 280, y: -105}
-        - {x: 284, y: -99}
-        - {x: 284, y: -4}
-        - {x: 280, y: 0}
-    - name: SmallFrame_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFrame_Background
       rect:
         serializedVersion: 2
         x: 709
@@ -497,14 +701,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -164}
-        - {x: 10, y: -169}
-        - {x: 37, y: -178}
-        - {x: 149, y: -178}
-        - {x: 149, y: 0}
-    - name: ActionButton_2_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ActionButton_2_Background
       rect:
         serializedVersion: 2
         x: 1412
@@ -514,14 +722,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -114}
-        - {x: 18, y: -146}
-        - {x: 130, y: -146}
-        - {x: 145, y: -138}
-        - {x: 145, y: 0}
-    - name: ActionButton_0_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ActionButton_0_Background
       rect:
         serializedVersion: 2
         x: 1127
@@ -531,15 +743,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -123}
-        - {x: 36, y: -142}
-        - {x: 121, y: -142}
-        - {x: 142, y: -117}
-        - {x: 142, y: -8}
-        - {x: 138, y: 0}
-    - name: ItemBox_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemBox_Background
       rect:
         serializedVersion: 2
         x: 859
@@ -549,14 +764,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 10, y: 12, z: 10, w: 36}
-      outline:
-      - - {x: 4, y: 0}
-        - {x: 0, y: -4}
-        - {x: 0, y: -107}
-        - {x: 3, y: -110}
-        - {x: 171, y: -110}
-        - {x: 171, y: 0}
-    - name: LargeFrame_Footer
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeFrame_Footer
       rect:
         serializedVersion: 2
         x: 1270
@@ -566,16 +785,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -57}
-        - {x: 86, y: -78}
-        - {x: 132, y: -78}
-        - {x: 225, y: -58}
-        - {x: 231, y: -32}
-        - {x: 231, y: -8}
-        - {x: 224, y: 0}
-    - name: Joystick_ButtonsMerged
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_ButtonsMerged
       rect:
         serializedVersion: 2
         x: 1502
@@ -585,16 +806,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 0}
-        - {x: 0, y: -17}
-        - {x: 0, y: -113}
-        - {x: 26, y: -132}
-        - {x: 107, y: -132}
-        - {x: 132, y: -116}
-        - {x: 132, y: -20}
-        - {x: 122, y: 0}
-    - name: LargeUnitBar_Fill_Health
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeUnitBar_Fill_Health
       rect:
         serializedVersion: 2
         x: 1270
@@ -604,16 +827,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 18, y: 0}
-        - {x: 0, y: -18}
-        - {x: 0, y: -26}
-        - {x: 3, y: -34}
-        - {x: 497, y: -34}
-        - {x: 498, y: -30}
-        - {x: 498, y: -16}
-        - {x: 480, y: 0}
-    - name: ImageBox_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImageBox_Background
       rect:
         serializedVersion: 2
         x: 1635
@@ -623,16 +848,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 20, y: 20, z: 20, w: 20}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -128}
-        - {x: 128, y: -128}
-        - {x: 128, y: 0}
-      - - {x: 20, y: -19}
-        - {x: 108, y: -19}
-        - {x: 108, y: -109}
-        - {x: 20, y: -109}
-    - name: ActionButton_1_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ActionButton_1_Background
       rect:
         serializedVersion: 2
         x: 1031
@@ -642,16 +869,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 3, y: 0}
-        - {x: 0, y: -14}
-        - {x: 0, y: -99}
-        - {x: 10, y: -109}
-        - {x: 143, y: -109}
-        - {x: 147, y: -95}
-        - {x: 147, y: -10}
-        - {x: 140, y: 0}
-    - name: LoadingBar_Fill
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_Fill
       rect:
         serializedVersion: 2
         x: 1179
@@ -662,7 +891,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: SmallFrame_Borders
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFrame_Borders
       rect:
         serializedVersion: 2
         x: 859
@@ -672,16 +911,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -113}
-        - {x: 113, y: -113}
-        - {x: 113, y: 0}
-      - - {x: 7, y: -7}
-        - {x: 106, y: -7}
-        - {x: 106, y: -106}
-        - {x: 7, y: -106}
-    - name: SmallFrame_ExampleImage
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFrame_ExampleImage
       rect:
         serializedVersion: 2
         x: 709
@@ -691,12 +932,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -111}
-        - {x: 111, y: -111}
-        - {x: 111, y: 0}
-    - name: Tab_Inactive_Highlighted
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tab_Inactive_Highlighted
       rect:
         serializedVersion: 2
         x: 278
@@ -706,14 +953,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 36, y: 0, z: 36, w: 0}
-      outline:
-      - - {x: 10, y: 0}
-        - {x: 0, y: -8}
-        - {x: 0, y: -57}
-        - {x: 192, y: -57}
-        - {x: 192, y: -8}
-        - {x: 183, y: 0}
-    - name: Tab_Inactive
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tab_Inactive
       rect:
         serializedVersion: 2
         x: 1769
@@ -723,14 +974,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 36, y: 0, z: 36, w: 0}
-      outline:
-      - - {x: 10, y: 0}
-        - {x: 0, y: -8}
-        - {x: 0, y: -57}
-        - {x: 192, y: -57}
-        - {x: 192, y: -8}
-        - {x: 183, y: 0}
-    - name: Tab_Active
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tab_Active
       rect:
         serializedVersion: 2
         x: 1731
@@ -740,14 +995,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 36, y: 0, z: 36, w: 0}
-      outline:
-      - - {x: 10, y: 0}
-        - {x: 0, y: -8}
-        - {x: 0, y: -57}
-        - {x: 192, y: -57}
-        - {x: 192, y: -8}
-        - {x: 183, y: 0}
-    - name: Tab_Inactive_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tab_Inactive_Pressed
       rect:
         serializedVersion: 2
         x: 1179
@@ -757,14 +1016,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 36, y: 0, z: 36, w: 0}
-      outline:
-      - - {x: 10, y: 0}
-        - {x: 0, y: -8}
-        - {x: 0, y: -57}
-        - {x: 192, y: -57}
-        - {x: 192, y: -8}
-        - {x: 183, y: 0}
-    - name: Tab_Active_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tab_Active_Pressed
       rect:
         serializedVersion: 2
         x: 973
@@ -774,14 +1037,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 36, y: 0, z: 36, w: 0}
-      outline:
-      - - {x: 10, y: 0}
-        - {x: 0, y: -8}
-        - {x: 0, y: -57}
-        - {x: 192, y: -57}
-        - {x: 192, y: -8}
-        - {x: 183, y: 0}
-    - name: Tab_Active_Highlighted
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tab_Active_Highlighted
       rect:
         serializedVersion: 2
         x: 1372
@@ -791,14 +1058,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 36, y: 0, z: 36, w: 0}
-      outline:
-      - - {x: 10, y: 0}
-        - {x: 0, y: -8}
-        - {x: 0, y: -57}
-        - {x: 192, y: -57}
-        - {x: 192, y: -8}
-        - {x: 183, y: 0}
-    - name: LargeButton_Label_Play
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeButton_Label_Play
       rect:
         serializedVersion: 2
         x: 1565
@@ -808,13 +1079,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -63}
-        - {x: 159, y: -63}
-        - {x: 164, y: -52}
-        - {x: 164, y: 0}
-    - name: StepBar_Fill_Incomplete
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepBar_Fill_Incomplete
       rect:
         serializedVersion: 2
         x: 0
@@ -825,7 +1101,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: StepBar_Fill
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepBar_Fill
       rect:
         serializedVersion: 2
         x: 0
@@ -836,7 +1122,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: WizardMenu_Middle
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMenu_Middle
       rect:
         serializedVersion: 2
         x: 821
@@ -846,15 +1142,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 132, y: 0}
-        - {x: 0, y: 0}
-        - {x: 0, y: -22}
-        - {x: 14, y: -66}
-        - {x: 148, y: -66}
-        - {x: 148, y: -49}
-        - {x: 134, y: -4}
-    - name: LargeUnitBar_Fill_Power
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeUnitBar_Fill_Power
       rect:
         serializedVersion: 2
         x: 0
@@ -865,7 +1164,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: WizardMenu_Middle_Active
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMenu_Middle_Active
       rect:
         serializedVersion: 2
         x: 479
@@ -875,16 +1184,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -15}
-        - {x: 8, y: -56}
-        - {x: 15, y: -64}
-        - {x: 146, y: -64}
-        - {x: 146, y: -45}
-        - {x: 145, y: -40}
-        - {x: 131, y: 0}
-    - name: NormalButton_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalButton_Background
       rect:
         serializedVersion: 2
         x: 626
@@ -894,16 +1205,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 0}
-        - {x: 0, y: -4}
-        - {x: 0, y: -52}
-        - {x: 2, y: -55}
-        - {x: 145, y: -55}
-        - {x: 148, y: -53}
-        - {x: 148, y: -2}
-        - {x: 146, y: 0}
-    - name: ActionButton_Swords
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ActionButton_Swords
       rect:
         serializedVersion: 2
         x: 1031
@@ -913,15 +1226,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -72}
-        - {x: 8, y: -88}
-        - {x: 82, y: -88}
-        - {x: 88, y: -85}
-        - {x: 88, y: -4}
-        - {x: 75, y: 0}
-    - name: ActionButton_Lightning
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ActionButton_Lightning
       rect:
         serializedVersion: 2
         x: 1924
@@ -931,15 +1247,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -71}
-        - {x: 6, y: -88}
-        - {x: 81, y: -88}
-        - {x: 88, y: -74}
-        - {x: 88, y: -3}
-        - {x: 85, y: 0}
-    - name: ActionButton_Fist
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ActionButton_Fist
       rect:
         serializedVersion: 2
         x: 1730
@@ -949,16 +1268,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -77}
-        - {x: 9, y: -86}
-        - {x: 12, y: -88}
-        - {x: 81, y: -88}
-        - {x: 88, y: -74}
-        - {x: 88, y: -5}
-        - {x: 83, y: 0}
-    - name: WizardMenu_Left
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMenu_Left
       rect:
         serializedVersion: 2
         x: 1819
@@ -968,13 +1289,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -66}
-        - {x: 106, y: -66}
-        - {x: 106, y: -47}
-        - {x: 92, y: 0}
-    - name: WizardMenu_Right
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMenu_Right
       rect:
         serializedVersion: 2
         x: 1926
@@ -984,13 +1310,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -22}
-        - {x: 14, y: -66}
-        - {x: 106, y: -66}
-        - {x: 106, y: 0}
-    - name: WizardMenu_Right_Active
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMenu_Right_Active
       rect:
         serializedVersion: 2
         x: 1166
@@ -1000,15 +1331,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -13}
-        - {x: 13, y: -57}
-        - {x: 14, y: -60}
-        - {x: 16, y: -64}
-        - {x: 104, y: -64}
-        - {x: 104, y: 0}
-    - name: WizardMenu_Left_Active
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMenu_Left_Active
       rect:
         serializedVersion: 2
         x: 970
@@ -1018,13 +1352,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -64}
-        - {x: 104, y: -64}
-        - {x: 104, y: -46}
-        - {x: 89, y: 0}
-    - name: ScrollView_Item_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollView_Item_Background
       rect:
         serializedVersion: 2
         x: 535
@@ -1034,14 +1373,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 0}
-        - {x: 0, y: -2}
-        - {x: 0, y: -39}
-        - {x: 161, y: -39}
-        - {x: 161, y: -3}
-        - {x: 159, y: 0}
-    - name: Joystick_Button_Left
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_Button_Left
       rect:
         serializedVersion: 2
         x: 1075
@@ -1051,16 +1394,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 0}
-        - {x: 0, y: -21}
-        - {x: 0, y: -77}
-        - {x: 14, y: -95}
-        - {x: 43, y: -95}
-        - {x: 56, y: -67}
-        - {x: 56, y: -6}
-        - {x: 39, y: 0}
-    - name: Joystick_Button_Top
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_Button_Top
       rect:
         serializedVersion: 2
         x: 775
@@ -1070,16 +1415,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 18, y: 0}
-        - {x: 0, y: -9}
-        - {x: 0, y: -31}
-        - {x: 13, y: -54}
-        - {x: 64, y: -54}
-        - {x: 94, y: -37}
-        - {x: 94, y: -13}
-        - {x: 74, y: 0}
-    - name: Joystick_Button_Right
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_Button_Right
       rect:
         serializedVersion: 2
         x: 870
@@ -1089,16 +1436,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 15, y: 0}
-        - {x: 0, y: -22}
-        - {x: 0, y: -69}
-        - {x: 16, y: -95}
-        - {x: 43, y: -95}
-        - {x: 53, y: -83}
-        - {x: 53, y: -15}
-        - {x: 40, y: 0}
-    - name: Joystick_Button_Bottom
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_Button_Bottom
       rect:
         serializedVersion: 2
         x: 1270
@@ -1108,18 +1457,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 79, y: -14}
-        - {x: 69, y: 0}
-        - {x: 30, y: 0}
-        - {x: 0, y: -18}
-        - {x: 0, y: -51}
-        - {x: 6, y: -53}
-        - {x: 83, y: -53}
-        - {x: 91, y: -42}
-        - {x: 95, y: -37}
-        - {x: 95, y: -30}
-    - name: ProgressBar_Vertical_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProgressBar_Vertical_Background
       rect:
         serializedVersion: 2
         x: 924
@@ -1129,12 +1478,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -127}
-        - {x: 39, y: -127}
-        - {x: 39, y: 0}
-    - name: Star_1_Slot
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_1_Slot
       rect:
         serializedVersion: 2
         x: 964
@@ -1144,28 +1499,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 65, y: -17}
-        - {x: 51, y: 0}
-        - {x: 0, y: 0}
-        - {x: 0, y: -54}
-        - {x: 1, y: -65}
-        - {x: 54, y: -65}
-        - {x: 59, y: -58}
-        - {x: 65, y: -31}
-      - - {x: 59, y: -51}
-        - {x: 61, y: -53}
-        - {x: 65, y: -52}
-        - {x: 66, y: -51}
-        - {x: 66, y: -45}
-        - {x: 64, y: -45}
-        - {x: 59, y: -49}
-      - - {x: 62, y: -40}
-        - {x: 63, y: -43}
-        - {x: 66, y: -43}
-        - {x: 66, y: -38}
-        - {x: 64, y: -38}
-    - name: PopupList_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_Background
       rect:
         serializedVersion: 2
         x: 1271
@@ -1175,12 +1520,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 14, y: 10, z: 14, w: 8}
-      outline:
-      - - {x: 3, y: 0}
-        - {x: 3, y: -64}
-        - {x: 61, y: -64}
-        - {x: 61, y: 0}
-    - name: ProgressBar_Vertical_Fill
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProgressBar_Vertical_Fill
       rect:
         serializedVersion: 2
         x: 2010
@@ -1190,40 +1541,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -121}
-        - {x: 33, y: -121}
-        - {x: 33, y: -110}
-        - {x: 0, y: -110}
-      - - {x: 0, y: -107}
-        - {x: 33, y: -107}
-        - {x: 33, y: -94}
-        - {x: 0, y: -94}
-      - - {x: 0, y: -91}
-        - {x: 33, y: -91}
-        - {x: 33, y: -78}
-        - {x: 0, y: -78}
-      - - {x: 0, y: -75}
-        - {x: 33, y: -75}
-        - {x: 33, y: -62}
-        - {x: 0, y: -62}
-      - - {x: 0, y: -59}
-        - {x: 33, y: -59}
-        - {x: 33, y: -46}
-        - {x: 0, y: -46}
-      - - {x: 0, y: -43}
-        - {x: 33, y: -43}
-        - {x: 33, y: -30}
-        - {x: 0, y: -30}
-      - - {x: 0, y: -27}
-        - {x: 33, y: -27}
-        - {x: 33, y: -14}
-        - {x: 0, y: -14}
-      - - {x: 0, y: 0}
-        - {x: 0, y: -11}
-        - {x: 33, y: -11}
-        - {x: 33, y: 0}
-    - name: ItemBox_Icon_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemBox_Icon_Background
       rect:
         serializedVersion: 2
         x: 471
@@ -1233,12 +1562,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 8, y: 8, z: 8, w: 8}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -62}
-        - {x: 63, y: -62}
-        - {x: 63, y: 0}
-    - name: TextField_Focused
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextField_Focused
       rect:
         serializedVersion: 2
         x: 1962
@@ -1248,13 +1583,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 16, y: 16, z: 16, w: 16}
-      outline:
-      - - {x: 1, y: 0}
-        - {x: 0, y: -1}
-        - {x: 0, y: -57}
-        - {x: 64, y: -57}
-        - {x: 64, y: 0}
-    - name: TextField_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextField_Normal
       rect:
         serializedVersion: 2
         x: 626
@@ -1264,13 +1604,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 16, y: 16, z: 16, w: 16}
-      outline:
-      - - {x: 1, y: 0}
-        - {x: 0, y: -1}
-        - {x: 0, y: -57}
-        - {x: 64, y: -57}
-        - {x: 64, y: 0}
-    - name: Slider_Horizontal_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Horizontal_Background
       rect:
         serializedVersion: 2
         x: 1127
@@ -1281,7 +1626,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 54, y: 0, z: 35, w: 0}
       outline: []
-    - name: ItemBox_ExampleIcon
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemBox_ExampleIcon
       rect:
         serializedVersion: 2
         x: 973
@@ -1291,12 +1646,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -56}
-        - {x: 56, y: -56}
-        - {x: 56, y: 0}
-    - name: ItemBox_Icon_Borders
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemBox_Icon_Borders
       rect:
         serializedVersion: 2
         x: 1366
@@ -1306,16 +1667,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 12, y: 12, z: 12, w: 12}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -53}
-        - {x: 54, y: -53}
-        - {x: 54, y: 0}
-      - - {x: 13, y: -12}
-        - {x: 41, y: -12}
-        - {x: 41, y: -40}
-        - {x: 13, y: -40}
-    - name: Star_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_1
       rect:
         serializedVersion: 2
         x: 859
@@ -1325,16 +1688,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 0}
-        - {x: 0, y: -1}
-        - {x: 0, y: -37}
-        - {x: 4, y: -50}
-        - {x: 45, y: -50}
-        - {x: 53, y: -28}
-        - {x: 53, y: -7}
-        - {x: 49, y: 0}
-    - name: StepBar_Bubble
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepBar_Bubble
       rect:
         serializedVersion: 2
         x: 865
@@ -1344,16 +1709,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 3, y: 0}
-        - {x: 0, y: -10}
-        - {x: 0, y: -49}
-        - {x: 6, y: -54}
-        - {x: 41, y: -54}
-        - {x: 49, y: -47}
-        - {x: 49, y: -13}
-        - {x: 39, y: 0}
-    - name: Star_2_Slot
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_2_Slot
       rect:
         serializedVersion: 2
         x: 1421
@@ -1363,17 +1730,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 47, y: -8}
-        - {x: 39, y: 0}
-        - {x: 11, y: 0}
-        - {x: 0, y: -4}
-        - {x: 0, y: -52}
-        - {x: 23, y: -52}
-        - {x: 36, y: -51}
-        - {x: 46, y: -45}
-        - {x: 47, y: -39}
-    - name: Star_0_Slot
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_0_Slot
       rect:
         serializedVersion: 2
         x: 1336
@@ -1383,15 +1751,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 0}
-        - {x: 0, y: -6}
-        - {x: 0, y: -48}
-        - {x: 48, y: -48}
-        - {x: 49, y: -41}
-        - {x: 49, y: -4}
-        - {x: 44, y: 0}
-    - name: Padlock
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Padlock
       rect:
         serializedVersion: 2
         x: 775
@@ -1401,13 +1772,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -50}
-        - {x: 37, y: -50}
-        - {x: 37, y: -5}
-        - {x: 36, y: 0}
-    - name: ScrollView_Item_Icon_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollView_Item_Icon_Background
       rect:
         serializedVersion: 2
         x: 1031
@@ -1417,12 +1793,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -42}
-        - {x: 42, y: -42}
-        - {x: 42, y: 0}
-    - name: Star_0
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_0
       rect:
         serializedVersion: 2
         x: 1386
@@ -1432,17 +1814,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 30, y: 0}
-        - {x: 12, y: 0}
-        - {x: 0, y: -6}
-        - {x: 0, y: -25}
-        - {x: 6, y: -41}
-        - {x: 9, y: -42}
-        - {x: 37, y: -42}
-        - {x: 40, y: -23}
-        - {x: 40, y: -9}
-    - name: Star_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_3
       rect:
         serializedVersion: 2
         x: 1127
@@ -1452,16 +1835,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 0}
-        - {x: 0, y: -5}
-        - {x: 0, y: -35}
-        - {x: 2, y: -40}
-        - {x: 37, y: -40}
-        - {x: 42, y: -25}
-        - {x: 42, y: -8}
-        - {x: 34, y: 0}
-    - name: TinyButton_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyButton_Background
       rect:
         serializedVersion: 2
         x: 1179
@@ -1472,7 +1857,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 8, y: 0, z: 8, w: 0}
       outline: []
-    - name: SmallArrow_Left
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallArrow_Left
       rect:
         serializedVersion: 2
         x: 973
@@ -1482,16 +1877,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 0}
-        - {x: 0, y: -9}
-        - {x: 0, y: -25}
-        - {x: 10, y: -34}
-        - {x: 35, y: -34}
-        - {x: 47, y: -30}
-        - {x: 47, y: -1}
-        - {x: 44, y: 0}
-    - name: SmallArrow_Right
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallArrow_Right
       rect:
         serializedVersion: 2
         x: 1170
@@ -1501,15 +1898,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -31}
-        - {x: 13, y: -34}
-        - {x: 37, y: -34}
-        - {x: 47, y: -25}
-        - {x: 47, y: -9}
-        - {x: 36, y: 0}
-    - name: Arrow_Up
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Up
       rect:
         serializedVersion: 2
         x: 1819
@@ -1520,7 +1920,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Arrow_Left
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Left
       rect:
         serializedVersion: 2
         x: 2013
@@ -1531,7 +1941,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Arrow_Down
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Down
       rect:
         serializedVersion: 2
         x: 1218
@@ -1542,7 +1962,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Arrow_Right
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Right
       rect:
         serializedVersion: 2
         x: 821
@@ -1553,7 +1983,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Star_2
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_2
       rect:
         serializedVersion: 2
         x: 1273
@@ -1563,16 +2003,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 0}
-        - {x: 0, y: -5}
-        - {x: 0, y: -35}
-        - {x: 1, y: -37}
-        - {x: 37, y: -37}
-        - {x: 40, y: -23}
-        - {x: 40, y: -9}
-        - {x: 31, y: 0}
-    - name: Slider_Vertical_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Vertical_Background
       rect:
         serializedVersion: 2
         x: 2033
@@ -1583,7 +2025,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 54, z: 0, w: 24}
       outline: []
-    - name: StepBar_Separator_Inactive
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepBar_Separator_Inactive
       rect:
         serializedVersion: 2
         x: 1314
@@ -1594,7 +2046,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: StepBar_Separator
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepBar_Separator
       rect:
         serializedVersion: 2
         x: 1427
@@ -1605,7 +2067,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: RadioCheckbox_Background_Highlighted
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadioCheckbox_Background_Highlighted
       rect:
         serializedVersion: 2
         x: 821
@@ -1615,15 +2087,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 0}
-        - {x: 0, y: -5}
-        - {x: 0, y: -36}
-        - {x: 34, y: -36}
-        - {x: 36, y: -33}
-        - {x: 36, y: -5}
-        - {x: 31, y: 0}
-    - name: Checkbox_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkbox_Background
       rect:
         serializedVersion: 2
         x: 2010
@@ -1633,14 +2108,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -34}
-        - {x: 2, y: -36}
-        - {x: 34, y: -36}
-        - {x: 36, y: -34}
-        - {x: 36, y: 0}
-    - name: Checkbox_Background_Highlighted
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkbox_Background_Highlighted
       rect:
         serializedVersion: 2
         x: 1497
@@ -1650,14 +2129,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -34}
-        - {x: 2, y: -36}
-        - {x: 34, y: -36}
-        - {x: 36, y: -34}
-        - {x: 36, y: 0}
-    - name: RadioCheckbox_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadioCheckbox_Background
       rect:
         serializedVersion: 2
         x: 1427
@@ -1667,15 +2150,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 0}
-        - {x: 0, y: -5}
-        - {x: 0, y: -36}
-        - {x: 34, y: -36}
-        - {x: 36, y: -33}
-        - {x: 36, y: -5}
-        - {x: 31, y: 0}
-    - name: Joystick_Arrow_Vertical
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_Arrow_Vertical
       rect:
         serializedVersion: 2
         x: 1386
@@ -1685,16 +2171,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 0}
-        - {x: 0, y: -11}
-        - {x: 0, y: -32}
-        - {x: 4, y: -34}
-        - {x: 34, y: -34}
-        - {x: 38, y: -31}
-        - {x: 38, y: -3}
-        - {x: 31, y: 0}
-    - name: Joystick_Arrow_Horizontal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joystick_Arrow_Horizontal
       rect:
         serializedVersion: 2
         x: 1336
@@ -1704,15 +2192,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -33}
-        - {x: 5, y: -38}
-        - {x: 21, y: -38}
-        - {x: 34, y: -31}
-        - {x: 34, y: -7}
-        - {x: 28, y: 0}
-    - name: Window_CloseButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window_CloseButton_Hover
       rect:
         serializedVersion: 2
         x: 1132
@@ -1722,12 +2213,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -34}
-        - {x: 33, y: -34}
-        - {x: 33, y: 0}
-    - name: Window_CloseButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window_CloseButton_Normal
       rect:
         serializedVersion: 2
         x: 1166
@@ -1737,12 +2234,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -34}
-        - {x: 33, y: -34}
-        - {x: 33, y: 0}
-    - name: ScrollView_Item_Icon_Borders
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollView_Item_Icon_Borders
       rect:
         serializedVersion: 2
         x: 1469
@@ -1752,16 +2255,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -33}
-        - {x: 32, y: -33}
-        - {x: 32, y: 0}
-      - - {x: 8, y: -8}
-        - {x: 24, y: -8}
-        - {x: 24, y: -25}
-        - {x: 8, y: -25}
-    - name: PopupList_Highlight
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_Highlight
       rect:
         serializedVersion: 2
         x: 1132
@@ -1771,12 +2276,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 2, y: 2, z: 2, w: 2}
-      outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
-    - name: PopupList_Arrow_Active
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_Arrow_Active
       rect:
         serializedVersion: 2
         x: 1464
@@ -1786,15 +2297,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: -7}
-        - {x: 0, y: -19}
-        - {x: 0, y: -31}
-        - {x: 1, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: -16}
-        - {x: 23, y: -7}
-    - name: PopupList_Arrow_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_Arrow_Normal
       rect:
         serializedVersion: 2
         x: 1200
@@ -1804,14 +2318,18 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -9}
-        - {x: 0, y: -24}
-        - {x: 10, y: -32}
-        - {x: 23, y: -32}
-        - {x: 32, y: -24}
-        - {x: 32, y: -9}
-    - name: ScrollBar_Horizontal_Background
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Horizontal_Background
       rect:
         serializedVersion: 2
         x: 535
@@ -1822,7 +2340,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 12, y: 0, z: 12, w: 0}
       outline: []
-    - name: ScrollBar_Vertical_Background
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Vertical_Background
       rect:
         serializedVersion: 2
         x: 2027
@@ -1833,7 +2361,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 12, z: 0, w: 12}
       outline: []
-    - name: SmallArrow_Middle
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallArrow_Middle
       rect:
         serializedVersion: 2
         x: 1796
@@ -1844,7 +2382,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Slider_Horizontal_Thumb
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Horizontal_Thumb
       rect:
         serializedVersion: 2
         x: 1469
@@ -1855,7 +2403,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Slider_Vertical_Thumb
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Vertical_Thumb
       rect:
         serializedVersion: 2
         x: 1248
@@ -1866,7 +2424,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Checkbox_Checkmark
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkbox_Checkmark
       rect:
         serializedVersion: 2
         x: 1384
@@ -1877,7 +2445,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: GoldCoin
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldCoin
       rect:
         serializedVersion: 2
         x: 1384
@@ -1888,7 +2466,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: RadioCheckbox_Checkmark
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadioCheckbox_Checkmark
       rect:
         serializedVersion: 2
         x: 2013
@@ -1899,7 +2487,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: ScrollBar_Vertical_Foreground
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Vertical_Foreground
       rect:
         serializedVersion: 2
         x: 1021
@@ -1910,7 +2508,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 12, z: 0, w: 12}
       outline: []
-    - name: ScrollBar_Horizontal_Foreground
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Horizontal_Foreground
       rect:
         serializedVersion: 2
         x: 1218
@@ -1921,7 +2529,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 10, y: 0, z: 10, w: 0}
       outline: []
-    - name: ScrollBar_Horizontal_Thumb
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Horizontal_Thumb
       rect:
         serializedVersion: 2
         x: 2010
@@ -1932,7 +2550,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PopupList_Separator
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_Separator
       rect:
         serializedVersion: 2
         x: 821
@@ -1943,7 +2571,17 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 2, y: 0, z: 2, w: 0}
       outline: []
-    - name: ScrollBar_Vertical_Thumb
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Vertical_Thumb
       rect:
         serializedVersion: 2
         x: 1494
@@ -1954,8 +2592,28 @@ TextureImporter:
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: Tribal UI
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
